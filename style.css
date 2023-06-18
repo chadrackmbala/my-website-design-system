@@ -1,0 +1,639 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/91633822/fr/photo/espace-galaxy.jpg?s=612x612&w=0&k=20&c=pEnbH-JEjwLnuEzMCgraoS3WnC68Nd43O8wRmi-j4H8=');
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    margin: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    /*background-color: hsl(180,100%,50%);
+    */-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-image: hsl(187,52%,80%) ;
+    /* background-image: url('https://media.gettyimages.com/id/1358321288/fr/vid%C3%A9o/animation-darri%C3%A8re-plan-propre-douce-et-brillante-cercle-flou-abstrait-beau-bokeh-motion.jpg?s=640x640&k=20&c=8he1fLWSgjYv6dU92qx-grJHT5qMbrAfz0iIhw85nSk='); */
+}
+.btn {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    font-family: 'Playfair Display';
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+.btn {
+    animation-name: button;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes button {
+    0% {
+      background-color: hsl(330,100%,71%);
+      bottom: 0;
+    }
+    50% {
+        background-color: hsl(330,100%,71%);
+        bottom: 50px;
+    }
+    100% {
+      background-color: hsl(330,100%,71%);
+      bottom: 0;
+    }
+  }
+#container {
+    background-color: #ffffff;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 20px hsl(187,52%,80%));
+    -webkit-filter: drop-shadow(0 0 20px hsl(187,52%,80%));
+    padding: 10px;
+}
+header {
+    text-align: center;
+    border-radius: 5px;
+    /* background-image: url('https://lh3.googleusercontent.com/Xs7MQ3Hq9JDm_GfH156ua1ea3idYAaUiXOeJiagyJe2NyBO_02CW01q9Q7SoMaRN00uAtqVqD3tflhtPTuK1uZDm1w=w640-h400-e365-rj-sc0x00ffffff'); */
+    color: rgb(245,245,220);
+    margin: 0;
+    font-family: 'Monoton';
+    word-spacing: 30px;
+}
+fieldset {
+    width: 1000px;
+    border-radius: 10px;
+    border: 3px solid #c0c0c0;
+}
+legend {
+    font-family: 'Playfair Display';
+}
+.color {
+    color: hsl(340,60%,65%);
+}
+.blue {
+    color: white !important;
+}
+.box {
+    width: 190px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.blue-title {
+    color: #0000FF;
+}
+.blue-title:hover {
+    color: #0000FF;
+}
+.blue-box {
+    background-color: #0000FF;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.blue-violet {
+    background-color: rgb(138,43,226);
+}
+.cornflowerblue {
+    background-color: hsl( 219 , 79% , 66% );
+}
+.darckblue {
+    background-color: #00008B;
+}
+.deepskyBlue {
+    background-color: #00BFFF;
+}
+.bodgerblue {
+    background-color: hsl(210,100%,56%);
+}
+.lightblue {
+    background-color: rgb(173,216,230);
+}
+.lightskyblue {
+    background-color: #87CEFA;
+}
+.lightsteelblue {
+    background-color: rgb(176,196,222);
+}
+.mediumblue {
+    background-color: #0000CD;
+}
+.midnightblue {
+    background-color: hsl(240,64%,27%);
+}
+.navy {
+    background-color: rgb(0,0,128);
+}
+.powderblue {
+    background-color: hsl(187,52%,80%);
+}
+.royalblue {
+    background-color: rgb(65,105,225);
+}
+.skyblue {
+    background-color: #87ceeb;
+}
+
+.aqua-title {
+    color: rgb(0,255,255);
+}
+.aqua {
+    background-color: rgb(0,255,255);
+}
+.aquamarine {
+    background-color: hsl(160,100%,75%);
+}
+.darkturquoise{
+    background-color: #00CED1;
+}
+.lightseagreen {
+    background-color: #20B2AA;
+}
+.mediumaquamarine {
+    background-color: #66CDAA;
+}
+.mediumturquoise {
+    background-color: #48D1CC;
+}
+.paleturquoise {
+    background-color: #AFEEEE;
+}
+.turquoise {
+    background-color:  hsl(174,72%,56%);
+}
+
+.brown-title {
+    color: rgb(165,42,42);
+}
+.basique {
+    background-color: #FFE4C4;
+}
+.blanchedalmond {
+    background-color: #FFEBCD;
+}
+.brown {
+    background-color: #A52A2A;
+}
+.burlywood {
+    background-color: #DEB887;
+}
+.chocolate {
+    background-color: #D2691E;
+}
+.cornsilk {
+    background-color: #FFF8DC;
+}
+.darkgoldenrod {
+    background-color: DarkGoldenrod;
+}
+.goldenrod {
+    background-color: #DAA520;
+}
+.maroon {
+    background-color: maroon;
+}
+.peru {
+    background-color: #cd853f;
+}
+.rosybrown {
+    background-color: #bc8f8f;
+}
+.saddlebrown {
+    background-color: #8b4513;
+}
+.sandybrown {
+    background-color: #f4a460;
+}
+.sienna {
+    background-color: #a0522d;
+}
+.tan {
+    background-color: #d2b48c;
+}
+.wheat {
+    background-color: #f5deb3;
+}
+
+.cyan-title {
+    color: rgb(0,255,255);
+}
+.cadetblue {
+    background-color: #5F9EA0;
+}
+.cyan {
+    background-color: #00FFFF;
+}
+.darkcyan {
+    background-color: #008B8B;
+}
+.lightcyan {
+    background-color: #E0FFFF;
+}
+.teal {
+    background-color: hsl(180,100%,25%);
+}
+
+.orange-title {
+    color: rgb(255,165,0);
+}
+.coral {
+    background-color: #FF7F50;
+}
+.darkorange {
+    background-color: #FF8C00;
+}
+.gold {
+    background-color: #FFD700;
+}
+.orange {
+    background-color: hsl(39,100%,50%);
+}
+.orangered {
+    background-color: #FF4500;
+}
+.tomato {
+    background-color: #ff6347;
+}
+
+.pink-title {
+    color: rgb(255,192,203);
+}
+.deeppink {
+    background-color: #FF1493;
+}
+.pink-o {
+    background-color:  hsl(284.8,63.1%,59.6%);
+}
+.hotpink {
+    background-color: #FF69B4;
+}
+.lightpink {
+    background-color: #FFB6C1;
+}
+.mediumvioletred {
+    background-color: #C71585;
+}
+.palevioletred {
+    background-color: #DB7093;
+}
+.pink {
+    background-color: #ffc0cb;
+}
+
+.red-title {
+    color: hsl(0,100%,50%);
+}
+.crimson {
+    background-color: #DC143C;
+}
+.darkred {
+    background-color: #8B0000;
+}
+.darksalmon {
+    background-color: #E9967A;
+}
+.firebrick {
+    background-color: #B22222;
+}
+.indianred {
+    background-color: #CD5C5C;
+}
+.lightcoralink {
+    background-color: #F08080;
+}
+.lightsalmon {
+    background-color: #FFA07A;
+}
+.red {
+    background-color: #ff0000;
+}
+.salmon {
+    background-color: #fa8072;
+}
+
+.yellow-title {
+    color: #F0E68C;
+}
+.darkkhaki {
+    background-color: #BDB76B;
+}
+.khaki {
+    background-color: #F0E68C;
+}
+.lemonchiffon {
+    background-color: #FFFACD;
+}
+.lightgoldenrodyellow {
+    background-color: #FAFAD2;
+}
+.lightyellow {
+    background-color: #FFFFE0;
+}
+.moccasin {
+    background-color: #FFE4B5;
+}
+.paleGgldenrod {
+    background-color: #EEE8AA;
+}
+.papayawhip {
+    background-color: #ffefd5;
+}
+.peachpuff {
+    background-color: #ffdab9;
+}
+.yellow {
+    background-color: #ffff00;
+}
+
+.purple-title {
+    color: #800080;
+}
+.darkmagenta {
+    background-color: #8B008B;
+}
+.darkorchid {
+    background-color: #9932CC;
+}
+.darkslateblue {
+    background-color: #483D8B;
+}
+.darkviolet {
+    background-color: #9400D3;
+}
+.fuchsia {
+    background-color: #FF00FF;
+}
+.indigo {
+    background-color: #4B0082;
+}
+.lavender {
+    background-color: #E6E6FA;
+}
+.magenta {
+    background-color: #FF00FF;
+}
+.mediumorchid {
+    background-color: #BA55D3;
+}
+.mediumpurple {
+    background-color: #9370DB;
+}
+.mediumslateblue {
+    background-color: #7B68EE;
+}
+.orchid {
+    background-color: #DA70D6;
+}
+.plum {
+    background-color: #dda0dd;
+}
+.purple {
+    background-color: #800080;
+}
+.rebeccapurple {
+    background-color: #663399;
+}
+.slateblue {
+    background-color: #6a5acd;
+}
+.thistle {
+    background-color: #d8bfd8;
+}
+.violet {
+    background-color: #ee82ee;
+}
+
+.green-title {
+    color: rgb(0,128,0);
+}
+
+.chartreuse {
+    background-color: #7FFF00;
+}
+.darkgreen {
+    background-color: #006400;
+}
+.darkolivegreen {
+    background-color: #556B2F;
+}
+.darkseagreen {
+    background-color: #8FBC8F;
+}
+.forestgreen {
+    background-color: #228B22;
+}
+.green {
+    background-color: #008000;
+}
+.greenyllow {
+    background-color: #ADFF2F;
+}
+.lawngreen {
+    background-color: #7CFC00;
+}
+.lightgreen {
+    background-color: rgb(144,238,144);
+}
+.lime {
+    background-color: #00FF00;
+}
+.limegreen {
+    background-color: #32CD32;
+}
+.mediumseagreen {
+    background-color: #3CB371;
+}
+.mediumspringgreen {
+    background-color: #00FA9A;
+}
+.olive {
+    background-color: hsl(60,100%,25%);
+}
+.olivedrab {
+    background-color: hsl(80,60%,35%);
+}
+.palegreen {
+    background-color: #98FB98;
+}
+.seagreen {
+    background-color: rgb(46,139,87);
+}
+.springgreen {
+    background-color: rgb(0,255,127);
+}
+.yellowgreen {
+    background-color: #9acd32;
+}
+
+.gray-title {
+    color: rgb(128,128,128);
+}
+.gray {
+    background-color: #808080;
+}
+.aliceblue {
+    background-color: #F0F8FF;
+}
+.antiquewhite {
+    background-color: #FAEBD7;
+}
+.azure {
+    background-color: #F0FFFF;
+}
+.beige {
+    background-color: #F5F5DC;
+}
+.black {
+    background-color: #000000;
+    color: white !important;
+}
+.darkgray {
+    background-color: #A9A9A9;
+}
+.darkslategray {
+    background-color: #2F4F4F;
+}
+.dimgray {
+    background-color: #696969;
+}
+.floralwhite {
+    background-color: #FFFAF0;
+}
+.gainsboro {
+    background-color: #DCDCDC;
+}
+.whostwhite {
+    background-color: #F8F8FF;
+}
+.honeydew {
+    background-color: #F0FFF0;
+}
+.ivory {
+    background-color: #FFFFF0;
+}
+.lavenderblush {
+    background-color: hsl(340,100%,97%);
+}
+.lightgray {
+    background-color: #D3D3D3;
+}
+.lightslategray {
+    background-color: #778899;
+}
+.linen {
+    background-color: #FAF0E6;
+}
+.mintcream {
+    background-color: #F5FFFA;
+}
+.mistyrose {
+    background-color: #FFE4E1;
+}
+.navajowhite {
+    background-color: #FFDEAD;
+}
+.oldLace {
+    background-color: #FDF5E6;
+}
+.seashell {
+    background-color: #fff5ee;
+}
+.silver {
+    background-color: #c0c0c0;
+}
+.slategray {
+    background-color: #708090;
+}
+.white {
+    background-color: #ffffff;
+    border: 1px solid;
+}
+.whitesmoke {
+    background-color: #f5f5f5;
+}
+
+/* FONTS */
+
+#police-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.roboto {
+    font-family: 'Roboto';
+}
+.open-sans {
+    font-family: 'Open Sans';
+}
+.poppins {
+    font-family: 'Poppins';
+}
+.ubuntu {
+    font-family: 'Ubuntu';
+}
+.robot-mono {
+    font-family: 'Roboto Mono';
+    width: 400px;
+}
+.monoton {
+    font-family: 'Monoton';
+    width: 400px;
+}
+.tilt-prism {
+    font-family: 'Tilt Prism';
+    width: 400px;
+}
+.playfair-display {
+    font-family: 'Playfair Display';
+}
+
+
+/* TEXT STYLES */
+
+#style-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.h1-style {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Poppins";
+}
+.h2-style {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Opeb Sans';
+}
+.p-style {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Playfair Display';
+}
